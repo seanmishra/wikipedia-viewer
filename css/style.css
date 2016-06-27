@@ -1,0 +1,22 @@
+body {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAMElEQVQYV2NkIBIwgtQ1nD7yv8HUhhFGY9MLVoisGJcFpJtIyKlwq+mjEDkUqG81ADU/GAtzamLVAAAAAElFTkSuQmCC) repeat;
+	padding-bottom: 60px;
+}
+
+footer {
+	position: fixed;
+	box-sizing: content-box;
+	bottom: 0;
+	width: 100%;
+	height: 20px;
+	padding: 10px;
+	box-shadow: -1px 0 6px #eee;
+}
+
+a {
+	color: #ffab40;
+}
+
+.card > .card-content {
+	min-height: 200px;
+}
