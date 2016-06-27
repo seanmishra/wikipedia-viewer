@@ -17,6 +17,6 @@ a {
 	color: #ffab40;
 }
 
-.card > .card-content {
+div.card > div.card-content {
 	min-height: 200px;
 }
