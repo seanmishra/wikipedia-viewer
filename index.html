@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wikipedia Viewer | FreeCodeCamp</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+</head>
+
+<body>
+
+    <body class="teal lighten-4">
+        <header class="container">
+            <h3 class="center-align teal-text text-darken-4">Wikipedia Viewer</h3>
+            <p class="center-align flow-text teal-text text-darken-4">
+              Search for your favorite topics or read a
+              <a target="_blank" href="http://en.wikipedia.org/wiki/Special:Random" class="waves-effect waves-light btn">
+                random article<i class="material-icons right">shuffle</i>
+              </a>
+            </p>
+            <nav class="teal lighten-1">
+                <div class="nav-wrapper">
+                    <form class="search">
+                        <div class="input-field">
+                            <input id="search" type="search">
+                            <label for="search"><i class="material-icons">search</i></label>
+                            <i class="material-icons">close</i>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <main class="row section articles">
+        </main>
+        <footer class="teal darken-3 white-text center-align">
+            Coded by <a target="_blank" href="mailto:santakmishra@outlook.com">Santak Mishra</a> | <a class="modal-trigger" href="#credits">Credits</a> | <a href="#search">New Search</a>
+        </footer>
+        <div id="credits" class="modal bottom-sheet teal darken-3 white-text">
+            <div class="modal-content center-align">
+                <h4>Credits</h4>
+                <p>Developed by <a target="_blank" href="mailto:santakmishra@outlook.com">Santak Mishra</a>
+                    <br>
+                    <a target="_blank" href="https://www.mediawiki.org/wiki/API:Main_page">MediaWiki</a> - Wikipedia API
+                    <br>
+                    <a target="_blank" href="http://materializecss.com/">Materialize </a> - CSS Framework
+                    <br>
+                    <a target="_blank" href="http://jquery.com/">jQuery</a> - JavaScript Framework
+                    <br>
+                    <a target="_blank" href="http://google.github.io/material-design-icons/#icon-font-for-the-web">Google Web Fonts</a> - Font Icons
+                    <br>
+                    <a target="_blank" href="http://www.patternify.com/">Patternify</a> - CSS Background Pattern
+                </p>
+            </div>
+        </div>
+    </body>
+
+    <!-- Scripts -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" charset="utf-8"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js" charset="utf-8"></script>
+</body>
+
+</html>
