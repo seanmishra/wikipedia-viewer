@@ -1,0 +1,10 @@
+{
+    "name": "sean/wikipedia-viewer",
+    "authors": [
+        {
+            "name": "Sean Mishra",
+            "email": "santakmishra@outlook.com"
+        }
+    ],
+    "require": {}
+}
